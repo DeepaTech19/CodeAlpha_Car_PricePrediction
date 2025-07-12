@@ -6,14 +6,14 @@ that helps estimate car prices and understand key influencing factors.
 ## Dataset:-
  - Source: Kaggle – Used Car Price Prediction
  - Features:
-    Car Name
-    Year
-    Selling Price
-    Present Price
-    Kms Driven
-    Fuel Type
-    Seller Type
-    Transmission
+    Car Name,
+    Year,
+    Selling Price,
+    Present Price,
+    Kms Driven,
+    Fuel Type,
+    Seller Type,
+    Transmission,
     Owner
 - Goal: Predict the selling price of a car using a regression model.
 
@@ -27,10 +27,10 @@ that helps estimate car prices and understand key influencing factors.
 ## Output:-
  - Cleaned and preprocessed the dataset
  - Performed:
-      Exploratory Data Analysis
-      Label Encoding of categorical variables
-      Correlation & heatmap visualization
-      Trained a regression model (Linear Regression)
+      Exploratory Data Analysis,
+      Label Encoding of categorical variables,
+      Correlation & heatmap visualization,
+      Trained a regression model (Linear Regression),
       Evaluated model performance using R² score
 
 ## Internship Task Submission:-
