@@ -1,33 +1,38 @@
-### Unemployment Rate Analysis in India ###
-
-This project analyzes unemployment rate data across Indian states and union territories 
-to uncover patterns, seasonal trends, and the impact of **Covid-19** on employment.
+### Car Price Prediction Using Machine Learning 🚗📊
+This project focuses on predicting the selling price of used cars based on several features like 
+car age, fuel type, seller type, transmission, and more. The aim is to build a regression model 
+that helps estimate car prices and understand key influencing factors.
 
 ## Dataset:-
-- Source: [Kaggle – Unemployment in India](https://www.kaggle.com/datasets/gokulrajkmv/unemployment-in-india)
-- Features:
-  - Date
-  - Frequency
-  - Region (State/UT)
-  - Estimated Employed
-  - Estimated Labour Participation Rate
-  - Estimated Unemployment Rate
-- Goal: Explore unemployment trends over time and across regions
-  
-## Tools Used
+ - Source: Kaggle – Used Car Price Prediction
+ - Features:
+    Car Name
+    Year
+    Selling Price
+    Present Price
+    Kms Driven
+    Fuel Type
+    Seller Type
+    Transmission
+    Owner
+- Goal: Predict the selling price of a car using a regression model.
+
+## Tools Used:-
 - Python
-- Pandas, NumPy :– data manipulation
-- Matplotlib, Seaborn :– data visualization
-- Jupyter Notebook :– development environment
+- Pandas, NumPy – data manipulation
+- Matplotlib, Seaborn – data visualization
+- Scikit-learn – model training & evaluation
+- Jupyter Notebook / VS Code – development environment
 
 ## Output:-
- Cleaned and explored the dataset
- Visualized:
-  - State-wise unemployment trends
-  - Seasonal & monthly patterns
-  - Covid-19 impact
-  Presented insights relevant to economic & policy decisions
-  
-## Internship Task Submission
-This project was submitted as part of my internship at **Code Alpha** under the **Data Science** domain.  
-It demonstrates real-world data analysis, visual exploration, and storytelling using Python.
+ - Cleaned and preprocessed the dataset
+ - Performed:
+      Exploratory Data Analysis
+      Label Encoding of categorical variables
+      Correlation & heatmap visualization
+      Trained a regression model (Linear Regression)
+      Evaluated model performance using R² score
+
+## Internship Task Submission:-
+This project was submitted as part of my internship at Code Alpha under the Data Science domain.
+It showcases the end-to-end process of solving a real-world machine learning problem — from data preprocessing to model deployment.
